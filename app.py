@@ -57,6 +57,7 @@ VALID_USERNAME_PASSWORD_PAIRS = {
 
 # Create Dash app
 app = dash.Dash(__name__)
+server = app.server
 # Add basic auth to the app
 auth = dash_auth.BasicAuth(
     app,
