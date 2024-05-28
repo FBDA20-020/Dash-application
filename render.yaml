@@ -3,7 +3,7 @@ services:
     name: games_analytics
     env: python
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "gunicorn dashboard:server"
+    startCommand: "gunicorn app:server"
   git add render.yaml
 git commit -m "Add render.yaml for Render deployment"
 git push origin main
