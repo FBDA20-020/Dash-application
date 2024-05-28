@@ -1,0 +1,40 @@
+/* styles.css */
+
+/* Style the header */
+h1 {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #04192e;
+    margin-top: 20px;
+}
+
+/* Style the dropdown menu */
+div > label {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 10px;
+}
+
+div > .Select-control {
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+/* Style the graph container */
+#chart {
+    margin: 50px auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* General body styling */
+body {
+    background-color: #9b959b;
+    font-family: 'Arial', sans-serif;
+    color: #3f252a9c;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
